@@ -1,0 +1,15 @@
+{% load static %}
+<h5 class="title"><a name="portfolio" href="#">Портфолио</a></h5>
+
+<div class="banner-container">
+    <ul class="ul-width">
+        {% for portfolio in img_port %}
+        <li>
+            <a href="{{ portfolio.design_img.url }}" data-lightbox="test"><img src="{{ portfolio.design_img.url }}" alt="Portfolio"/></a>
+            <span class="overlay"></span>
+        </li>
+        {% endfor %}
+    </ul>
+    <h5><a href="https://vk.com/album-211078894_281995782" target="_blank" class="title_work">Все работы</a></h5>
+</div>
+<script src="{% static 'js/lightbox-plus-jquery.js' %}"></script>

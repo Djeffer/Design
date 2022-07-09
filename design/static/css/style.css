@@ -1,0 +1,344 @@
+.class_form form, button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+
+}
+.class_form input {
+     margin: 10px, 50px, 10px, 10px;
+     padding: 30px, 30px, 0px, 30px;
+
+}
+.form-group {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.class_form button{
+    width: 200px;
+    height: 40px;
+    margin-top: 0px;
+    background: grey;
+    border: 2px solid grey;
+}
+.class_form label{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.class_form h2{
+    padding-top: 120px;
+    padding-left: 10px;
+    opacity: 0.6;
+}
+.justify-content-center {
+    width: 100%;
+}
+.logo-top {
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+.logo-top img{
+    width: 350px;
+    height: 50px
+}
+.phone-number {
+  width: 200px;
+  height: 40px;
+  float: right;
+  margin: 20px 10px 5px 20px;
+}
+.whatsapp-number {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../design/premium-icon-whatsapp-4494470.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+.vk-site {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../design/premium-icon-vkontakte-4494490.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+.telegram-number {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../design/free-icon-telegram-2111710.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.menu a {
+  font-size: 20px;
+  padding: 0px 30px 0px 0px;
+}
+.bg-light{
+    background-color: grey;
+    opacity: 0.8;
+}
+_______________________
+
+________________
+.text-3 {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 7%;
+}
+
+.product_card {
+	margin: 5px;
+	border: 2px solid grey;
+}
+
+.table_one {
+	font-size: 1.4em;
+}
+
+.class_form {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.table_one {
+	font-size: 1.4em;
+}
+.justify-content-center {
+    text-align: center;
+}
+.text-center {
+    padding-top: 0px;
+}
+.class_form {
+  text-align: center;
+  padding-bottom: 7%;
+}
+.card-title {
+    width: 100%;
+    margin-top: 10px;
+}
+.product_card {
+    width: 320px
+}
+.contact {
+    background: #bbbbbb;
+    opacity: 0.8;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-size:cover
+}
+_______________________
+
+.logo-bottom {
+  float: left;
+  margin: 0px 0px 5px 30px;
+}
+.logo-bottom img{
+    width: 350px;
+    height: 50px;
+}
+
+.thank{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 162px);
+}
+.title{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+.menu a {
+    display: inline-block;
+    color: black;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu a:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.menu a:hover:after,
+.menu a:focus:after {
+    width: 100%;
+}
+.page_cover {
+    width: 100%;
+    height: 500px;
+    margin: 30px 0px 50px 0px;
+    opacity: .4;
+}
+
+.title a {
+    display: inline-block;
+    color: black;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:22px;
+}
+.title a:visited {
+    text-decoration: none;
+}
+.title a:active {
+    text-decoration: none;
+}
+.title a:hover {
+    text-decoration: none;
+    color: black;
+}
+.title a:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.title a:hover:after,
+.title a:focus:after {
+    width: 100%;
+}
+.text_about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 200px 30px 270px;
+  padding: 0px 60px 0px 16px;
+
+}
+.banner-container h5 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+.title_work {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 125px;
+    padding-left: 125px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: white;
+}
+.title_work:hover {
+   background: #bbbbbb;
+   border: 2px solid grey;
+   text-decoration: none;
+   color: white;
+}
+.about_us {
+    margin-top: 30px;
+}
+.about_text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.text_about p {
+  width: 80%;
+  height: 20%;
+  padding-right: 100px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+.text_contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 200px 30px 270px;
+    padding: px 60px 0px 0px;
+}
+.text_contacts2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 470px;
+    padding: 0px 0px 0px 0px;
+}
+.soc {
+   display: flex;
+    flex-direction: row;
+}
+.text_contacts, .text_contacts2 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.text_contacts span {
+    font-weight: 600;
+}
+.text_contacts2 p {
+    font-weight: 600;
+}
+_______________________
+
+.banner-container {
+    overflow: hidden;
+    position: relative;
+}
+.banner-container ul {
+    padding: 0;
+    display: flex;
+    width: calc(93% + 80px);
+    margin-left: -30px;
+    margin: 0px 0px 0px 0px;
+}
+.banner-container li {
+    clip-path: polygon(0px 0%, 100% 0%, calc(100% - 0px) 100%, 0% 100%);
+    position: relative;
+    margin: 0 -35px;
+    width: calc(100% / 10 + 500px); /* 5 - кол-во фотографий */
+    transition: width 0.5s ease-in;
+    border: 5px solid white;
+}
+.banner-container li a {
+    display: block;
+    background: #000;
+}
+.banner-container li a img {
+    max-width: none;
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 0.7s ease-in;
+}
+.banner-container ul li:hover {
+    width: 100%;
+}
+.banner-container ul li:hover a img {
+    opacity: 1;
+}
+.price_block {
+    padding-bottom: 30px;
+}
+_______________________

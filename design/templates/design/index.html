@@ -1,0 +1,38 @@
+{% extends 'design/base.html' %}
+
+{% block content %}
+<section>
+    <div class="class_form">
+        <h2 class="text-3">Оставьте заявку на консультацию</h2>
+        <div class="row justify-content-center">
+            <form action="{% url 'thanks_page' %}" method="POST" class="yawn">{% csrf_token %}
+                <div class="form-group row">
+                    {{ form.name }}
+                    <div class=""></div>
+                </div>
+                <div class="form-group row">
+                    {{ form.phone }}
+                    <div class=""></div>
+                </div>
+                <div class="form-group row">
+                    {{ form.city }}
+                    <div class=""></div>
+                </div>
+                <div class="form-group row">
+                    <button type="submit" class="btn btn-success">ОСТАВИТЬ ЗАЯВКУ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- О нас -->
+{% include 'design/about.html' %}
+<!-- Портфолио -->
+{% include 'design/portfolio.html' %}
+<!-- Прайс лист -->
+{% include 'design/price.html' %}
+<!-- Контакты -->
+{% include 'design/contacts.html' %}
+
+
+{% endblock %}
